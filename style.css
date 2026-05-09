@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   height: 100vh;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   background-color: #fbe8b4;
+   overflow: hidden;
+
+}
+#part1{
+    width: 60%;
+    height: 100%;
+    background-color: #fbc50b;
+}
+#t1{
+    font-size: 15px;
+    text-decoration: capitalize;
+    color: #000;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+p{
+    color: #000;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+h2{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 750;
+}
+
+#content{
+    /* margin-top:200px;
+    text-align: left; */
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+#logo{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 70px;
+}
+#pikachu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -40%);
+    width: auto;
+    height: 750px;
+}
+
+h1{
+    font-size: 100px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 750;
+}
+#menu{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    transform: translate(50%, -50%);
+    font-size: 50px;
+    color: #333;
+    cursor: pointer;
+}
+
+#scroller{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(50%, -50%);
+    width: 100px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#dot1, #dot2, #dot3, #dot4, #dot5{
+    width: 20px;
+    height: 20px;
+    background-color: #fbc50b;
+    border-radius: 50%;
+}
+#pokeball{
+    position: absolute;
+    bottom: 2%;
+    left: 10%;
+    transform: translate(0%, 40%);
+    width: auto;
+    height: 300px;
+    color: blanchedalmond;
+    filter: grayscale(0.2);
+}
